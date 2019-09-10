@@ -123,6 +123,7 @@ public class MainActivity extends AppCompatActivity implements MyFirebaseMessagi
 
     //todo 3
     public static void sentCommandToMain(){
+        //berikan fungsi onStart onStop  dan set true dan false
         str = "Kamu Dipanggil";
         Log.d(TAG, "sentCommandToMain: "+str);
         mainActivity.runOnUiThread(new Runnable() {
